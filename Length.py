@@ -1,32 +1,32 @@
-class LengthConversions():
+class Length():
     
     # imperial to metric    
-    def inchToCm(self, inch):
-        return inch * 2.54
+    def inchesToCm(self, inches):
+        return inches * 2.54
     
-    def feetToMetre(self, foot):
-        return foot * 0.3048
+    def feetToMetres(self, feet):
+        return feet * 0.3048
         
-    def yardToMetre(self, yard):
-        return yard * 0.9144
+    def yardsToMetres(self, yards):
+        return yards * 0.9144
         
-    def mileToKm(self, mile):
-        return mile * 1.6093
+    def milesToKms(self, miles):
+        return miles * 1.6093
     
-    def nauticalMileToKm(self, nm):
+    def nauticalMilesToKms(self, nm):
         return nm * 1.853
         
     # metric to imperial
-    def mmToInch(self, mm):
+    def mmsToInches(self, mm):
         return mm * 0.03937
         
-    def centimetreToInch(self, cm):
+    def centimetresToInches(self, cm):
         return cm * 0.393700787
         
-    def centimetreToFoot(self, cm):
+    def centimetresToFeet(self, cm):
         return cm / 30.48
     
-    def metreToYard(self, m):
+    def metresToYards(self, m):
         return m * 1.0936
         
     # metric conversions
@@ -36,16 +36,16 @@ class LengthConversions():
     def mmToCm(self, mm):
         return mm / 10
     
-    def metreToCm(self, m):
+    def metresToCm(self, m):
         return m * 100
         
-    def cmToMetre(self, cm):
+    def cmToMetres(self, cm):
         return cm / 100
     
-    def metreToMm(self, m):
+    def metresToMm(self, m):
         return m * 1000
         
-    def mmToMetre(self, mm):
+    def mmToMetres(self, mm):
         return mm / 1000
     
     # imperial conversions
@@ -67,7 +67,7 @@ class LengthConversions():
     def yardsToMiles(self, yards):
         return yards / 1760
         
-    def nauticalMileToYards(self, nm):
+    def nauticalMilesToYards(self, nm):
         return nm * 2025.4
         
     def yardsToNauticalMiles(self, yards):
