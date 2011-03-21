@@ -53,7 +53,7 @@ class Volume:
     def usaToUkGallons(self, g):
         return g * 0.8327
     
-    # USA to UK
+    # UK to USA
     def ukToUsaFloz(self, floz):
         return floz / 1.0408
 
