@@ -1,4 +1,4 @@
-class Volume:
+class Volume():
     
     # metric ti imperial
     def cm3ToIn3(self, cm3):
