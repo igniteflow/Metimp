@@ -1,6 +1,6 @@
 class Volume():
     
-    # metric ti imperial
+    # metric to imperial
     def cm3ToIn3(self, cm3):
         return cm3 * 0.0610
         
